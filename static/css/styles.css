@@ -1,0 +1,404 @@
+
+/*################# General ###############*/
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  animation-duration: 1s;
+  animation-name: fadeInUp;
+  opacity: 1!important;
+}
+
+.hide-wrapper{
+     opacity:0;
+}
+
+
+.container-padding{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+/*############# NAV ##############*/
+.top-bar {
+    background-color: #f8f8f8;
+}
+
+.top-bar-content {
+    margin: 10px 0;
+}
+
+ul.user-menu {
+	padding-top: 5px;
+	padding-left: 0;
+}
+ul.user-menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 8px;
+    border-right: 1px solid #ccc;
+}
+
+ul.user-menu li:last-child {
+	border-right: 0;
+}
+
+ul.user-menu li a {
+	color: black;
+}
+
+#index-search{
+    border: 0;
+    outline: 0;
+    padding-bottom: 10px;
+ 	padding-top: 5px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    background-image: url(/img/ico-search.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-color: inherit;
+	font-size: 16px;
+	font-weight: 200;
+}
+
+nav.navbar.navbar-static-top {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 0;
+	background-color: #fff;
+}
+img.site_logo {
+    padding: 15px 0;
+}		
+
+div#navbar {
+    margin-left: auto;
+    align-self: center;
+}
+
+#navbar ul.navbar-nav li a{
+	color: black;
+}
+#navbar ul.navbar-nav li.dropdown-icon{
+	display: none;
+}
+
+
+/*############## hero ##############*/
+.hero{
+	position: relative;
+	background-color: black;
+	background: url(/img/bg-hero.jpg) no-repeat center;
+	background-size: cover;
+	padding-bottom: 5%;
+}
+
+.hero .row {
+    padding-top: 5%;
+}
+
+.hero-img{
+	height: auto;
+	width: 100%;
+}
+
+.hero-content{
+	color: #fff;
+	height: auto;
+}
+
+.hero-content h1{
+	font-weight: 400;
+	letter-spacing: 4px;
+	font-size: 50px;
+}
+
+.hero-content span {
+    border: 1px red solid;
+    padding: 10px 30px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.hero-content span:nth-of-type(2) {
+    border: 1px #fff solid;
+    margin-left: 10px;
+}
+
+.hero-content p {
+    margin-bottom: 40px;
+    font-size: 20px;
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+
+.hero-product-img{
+	background-color: transparent;
+}
+
+.hero-product-img img {
+	margin-left: auto;
+}
+
+/*################ Tabbed Content ################*/
+.tabbed-content{
+	padding-top: 50px;
+	padding-right: 0px;
+	margin-bottom: 5%;
+/*    margin: 0 -10px;
+    padding: 5% 0;*/
+}
+
+
+.tab-content {
+    padding-top: 50px;
+}
+
+
+/*.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	color: red;
+}*/
+.nav-tabs>li>a{
+	font-size: 24px;
+	letter-spacing: 1px;
+	color: black;
+}
+
+.nav-tabs > li a:first-of-type{
+	border-left-color: transparent;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	color: red;
+}
+
+
+.tabbed {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    margin-top: 5%;
+}
+
+.tab-circle {
+    margin-right: 10px;
+    height: 16.66667%;
+    width: 16.66667%;
+}
+
+.owl-prev {
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    margin-left: -3%;
+    display: block!IMPORTANT;
+    border:0px solid black;
+}
+
+.owl-next {
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    right: -3%;
+    display: block!IMPORTANT;
+    border:0px solid black;
+    margin-left: 100%;
+}
+
+#industries{
+	min-height: 180px;
+}
+
+
+/* ################# NEWSLETTER ##############*/
+.newsletter{
+	position: relative;
+	background-color: black;
+	background: url(/img/bg-subscribe.jpg) no-repeat center;
+	background-size: cover;
+	padding-bottom: 10%;
+	min-height: 400px;
+	padding-top: 5%;
+}
+.newsletter-form input[type=submit]{
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 3px;
+    background-color: red;
+    font-weight: 500;
+}
+
+.newsletter-content p{
+	margin-bottom: 5%;
+	letter-spacing: 1px;
+}
+
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.input-wrapper input{
+	width: 100%;
+	line-height: 2.5;
+	padding-left: 10px;
+}
+
+
+.input-wrapper label {
+    position: absolute;
+    bottom: 10px;
+    left: 60%;
+}
+
+#email-input-wrapper label{
+	left: 46%;
+}
+span.ast{
+	color: red;
+}
+
+
+
+
+/*############## STATS ####################*/
+.header{
+	margin-top: 2%;
+}
+
+.header:after {
+    position: absolute;
+    content: '';
+    bottom: -25%;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+    height: 1px;
+    background: red;
+}
+
+.header-content{
+	margin: 10% 0 5%;
+}
+
+.header-content p{
+	font-size: 20px;
+    text-align: center;
+    padding: 25px 50px;
+    font-weight: 100;
+    letter-spacing: 1px;
+
+}
+.stats-content{
+	border: solid 1px #ccc;
+}
+
+.circles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circle-with-text {
+  border: 7px solid #f2f2f2;
+  border-top-color: transparent;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  text-align: center;
+  margin: 5px 20px;
+  font-size: 15px;
+  padding: 15px;
+  display: flex;
+  height: 200px;
+  width: 200px;
+  color: black;
+  transform: rotate(-26deg);
+}
+
+.circle-with-img {
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    margin: 5px 20px;
+    font-size: 15px;
+    padding: 40px;
+    display: flex;
+    height: 150px;
+    width: 150px;
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.circle-with-text  span{
+	transform: rotate(26deg);
+	font-size: 36px;
+    font-weight: 600;
+}
+
+.circle-with-text  span.circle-plus{
+	color: red;
+}
+
+.stats-wrapper h3  {
+	text-align: center;
+    font-weight: 400;
+}
+
+.contact-info{
+	background-color: #f2f2f2;
+	padding: 5%;
+}
+
+
+
+
+
+/* ########## footer ###############*/
+ul.footer-contact-group, .contact-info-content address{
+    border-left: 1px solid black;
+    padding-left: 0;
+}
+
+.contact-info-content address, ul.footer-contact-group li a{
+	color: black;
+}
+
+ul.footer-contact-group, .contact-info-content address{
+	padding-left: 20px;
+}
+
+ul.footer-contact-group li {
+	list-style: none;
+	line-height: 2.5;
+	color: black;
+}
+
+.contact-info h4{
+	color: red;
+}
+
+.footer-bottom{
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+.footer-bottom p{
+	text-align: center;
+}
+
+
+
+

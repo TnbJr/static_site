@@ -1,0 +1,94 @@
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+		.hero-content span:nth-of-type(2) {	
+		 margin-left: 0; 
+		 margin-top: 10px;
+		}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	/*   navbar */
+		div#navbar{
+			margin-left: 0;
+			align-self: stretch;
+		}
+		
+		img.site_logo {
+		    padding: 15px 0;
+		    height: 92px;
+		}
+		
+
+		nav.navbar.navbar-static-top {
+		    flex-direction: column;
+		    padding: 0;
+		}
+		
+		li.dropdown-icon {
+		    position: absolute;
+		    top: 16px;
+		    right: 20px;
+		}
+
+		#navbar ul.navbar-nav li{
+			display: none;
+			border-bottom: 1px solid #ccc;
+			padding-left: 10px;
+		}
+
+		#navbar ul.navbar-nav li:nth-of-type(1){
+			border-top: 1px solid #ccc;
+		}
+
+		#navbar ul.navbar-nav li.dropdown-icon{
+			display: block;
+			border: 1px solid #ccc;
+			padding-left: 0;
+		}
+		
+		/*hero*/
+		.hero-content h1, .hero-content p{
+			text-align: center;
+		}
+
+		.hero-content h1{
+			font-size: 40px;
+		}
+		.hero-content span{
+			margin-left: 25%;
+		}
+		.hero-content span:nth-of-type(2) {	
+			 margin-left: 25%;
+			 margin-top: 10px;
+			 text-align: center;
+		}
+
+		.hero-product-img{
+			padding-top: 10%;
+		}
+		
+		/*newsletter*/
+		.input-wrapper{
+			margin-top: 10px;
+		}
+		.newsletter-form input[type=submit]{
+			display: inline-block;
+			margin-top: 10px;
+			width: 50%;
+		}
+		/* header*/
+		.header:after {
+		    bottom: 0%;
+		}
+
+		.col-sm-6.newsletter-content {
+    		text-align: center;
+		}
+
+		/*newletter*/
+		.footer-item {
+    		text-align: center;
+		}
+}
